@@ -1,0 +1,12 @@
+@import 'base/fonts';
+@import 'base/variables';
+
+* {
+    font-family: Roboto;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+@import 'blocks/promo';
+@import 'blocks/buttons';
