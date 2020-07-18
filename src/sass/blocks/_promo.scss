@@ -111,6 +111,7 @@
     &__item_icon {
         display: block;
         margin: 0 auto;
+        
     }
     &__item_descr {
         margin-top: 19px;
@@ -118,5 +119,6 @@
         font-size: 16px;
         font-weight: 300;
         line-height: 22px;
+        text-align: center;
     }
 }
