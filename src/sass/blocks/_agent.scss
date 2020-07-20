@@ -1,0 +1,39 @@
+.agent {
+    max-height: 342px;
+    padding: 58px 0 75px 0;
+    background: url(../../img/second_bg.jpg) center center/cover no-repeat;
+      
+    &__round {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 102px;
+        height: 102px;
+        border: 1px solid $two_color;
+        border-radius: 50%;
+    }
+    &__img {
+        width: 48px;
+        height: 51px;
+    }
+    &__subheader {
+        margin-top: 20px;
+        text-align: center;
+        color: $two_color;
+        font-size: 26px;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    &__descr {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
+        max-width: 984px;
+        color: $two_color;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 27px;
+    }
+}
