@@ -1,0 +1,35 @@
+.menedgers {
+    padding: 58px 0 76px 0;
+    max-height: 342px;
+    background: url(../img/bg_3.jpg) center center/cover no-repeat;
+    &__round {
+        display: block;
+        margin: 0 auto;
+        width: 102px;
+        height: 102px;
+        border-radius: 50%;
+        border: 1px solid $two_color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__subheader {
+        margin-top:20px;
+        margin-bottom: 0;
+        color: $two_color;
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__descr{
+        display: block;
+        margin: 0 auto;
+        max-width: 924px;
+        margin-top: 18px;
+        text-align: center;
+        color: $two_color;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 27px;
+    }
+}

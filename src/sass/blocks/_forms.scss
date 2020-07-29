@@ -1,0 +1,23 @@
+.feed-form {
+    display: block;
+    margin: 0 auto;
+    max-width: 818px;
+    margin-top: 10px;
+
+   &__wrapper {
+       display: flex;
+       justify-content: space-between;
+       input {
+        height: 45px;
+        width: 225px;
+        border-radius: 50px;
+        border: 2px solid;
+        border-color: #898989;
+        color: #4b4b4b;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 0 20px 0 20px;  
+        
+       }
+   }
+}
